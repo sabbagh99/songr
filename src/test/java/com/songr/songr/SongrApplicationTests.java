@@ -11,14 +11,14 @@ class SongrApplicationTests {
 	@Test
     public void testAlbum() {
 		Album siaAlbum = new Album("This Is Acting", "Sia", 3, 1354, "https://www.colendri.lt/media/EshopProducts/150/Sia-This-Is-Acting-CD.jpg");
-		helloWorld hello = new helloWorld();
+		controllerSongr controller = new controllerSongr();
         assertEquals("Album{title='This Is Acting', artist='Sia', songCount=3, length=1354, imageUrl='https://www.colendri.lt/media/EshopProducts/150/Sia-This-Is-Acting-CD.jpg'}", siaAlbum.toString());
         assertEquals("This Is Acting",siaAlbum.getTitle());
         assertEquals("Sia",siaAlbum.getArtist());
         assertEquals(3,siaAlbum.getSongCount());
         assertEquals(1354,siaAlbum.getLength());
         assertEquals("https://www.colendri.lt/media/EshopProducts/150/Sia-This-Is-Acting-CD.jpg",siaAlbum.getImageUrl());
-        assertEquals("HELLO WORLD",hello.toUpperCase("hello world"));
+        assertEquals("HELLO WORLD",controller.toUpperCase("hello world"));
         
         
         siaAlbum.setTitle("NO NAME");
