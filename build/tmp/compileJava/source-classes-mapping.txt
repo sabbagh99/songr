@@ -1,6 +1,8 @@
 com/songr/songr/SongrApplication.java
  com.songr.songr.SongrApplication
+com/songr/songr/RepositorySongr.java
+ com.songr.songr.RepositorySongr
 com/songr/songr/Album.java
  com.songr.songr.Album
-com/songr/songr/helloWorld.java
- com.songr.songr.helloWorld
+com/songr/songr/controllerSongr.java
+ com.songr.songr.controllerSongr
