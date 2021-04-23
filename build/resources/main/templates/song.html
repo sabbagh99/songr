@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+
+
+<div class="navbar">
+    <a  href="http://localhost:8080/">home page</a>
+    <a  href="http://localhost:8080/hello">hello world </a>
+    <a  href="http://localhost:8080/addAlbum">Add album</a>
+    <a  href="http://localhost:8080/albums">All  album</a>
+    <a  href="http://localhost:8080/capitalize/hello"> capitalize</a>
+    <a  href="http://localhost:8080/addSong">Add song</a>
+    <a  href="http://localhost:8080/songs">All song</a>
+</div>
+
 <div th:each="song: ${songs}">
     <div class="disInline">
         <p class="inline"> song ID: <span th:text=${song.id}></span></p>

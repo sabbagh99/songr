@@ -29,22 +29,22 @@ public class SongController {
         return "addSong.html";
     }
 
-//    @PostMapping("/songs")
-//    public RedirectView addSong(@RequestParam(value = "title") String title,
-//                                @RequestParam(value = "trackNumber") int trackNumber,
-//                                @RequestParam(value = "length") int length,
-//                                @RequestParam(value = "album") Album album){
-//        Song song = new Song(title, length, trackNumber, album);
-//        songRepository.save(song);
-//        return new RedirectView("/songs");
-//    }
     @PostMapping("/songs")
-    public ResponseEntity<Song> addStudent(String title, int trackNumber, int length,Integer albumId){
-        Album album = repositorySongr.findById(albumId).get();
-        Song song = new Song(title,length,trackNumber,album);
+    public RedirectView addSong(@RequestParam(value = "title") String title,
+                                @RequestParam(value = "trackNumber") int trackNumber,
+                                @RequestParam(value = "length") int length,
+                                @RequestParam(value = "album") Album album){
+        Song song = new Song(title, length, trackNumber, album);
         songRepository.save(song);
-        return new ResponseEntity(song, HttpStatus.OK);
+        return new RedirectView("/songs");
     }
+//    @PostMapping("/songs")
+//    public ResponseEntity<Song> addStudent(String title, int trackNumber, int length,Integer albumId){
+//        Album album = repositorySongr.findById(albumId).get();
+//        Song song = new Song(title,length,trackNumber,album);
+//        songRepository.save(song);
+//        return new ResponseEntity(song, HttpStatus.OK);
+//    }
 
 
     @GetMapping("/songs/{id}")

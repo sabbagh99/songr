@@ -2,8 +2,10 @@
 margin:0;
 }
 .body{ background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/18-albums-from-the-2010s-that-people-will-still-listen-to-in-50-years-1574363017.png');}
-.p{  text-align: center;
+.p{
+text-align: center;
 font-size : 50px;
+margin: 82px;
 color : #0faabb;
 }
 
@@ -43,3 +45,43 @@ width:100%;
 .disInline{
 display:inline-block;
 }
+.h2{
+text-align: center;
+margin: 82px;
+color: #ffd500;
+
+}
+.ul{
+
+text-align: center;
+font-size : 30px;
+margin: 82px;
+
+    color: slateblue;
+    font-weight: bold;
+    }
+    /* //////////////////////////////////////////*/
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+        top: 0;
+    border-width: 0 0 1px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
