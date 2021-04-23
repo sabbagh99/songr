@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+<div class="navbar">
+    <a  href="http://localhost:8080/">home page</a>
+    <a  href="http://localhost:8080/hello">hello world </a>
+    <a  href="http://localhost:8080/addAlbum">Add album</a>
+    <a  href="http://localhost:8080/albums">All  album</a>
+    <a  href="http://localhost:8080/capitalize/hello"> capitalize</a>
+    <a  href="http://localhost:8080/addSong">Add song</a>
+    <a  href="http://localhost:8080/songs">All song</a>
+</div>
+
 <div th:each="album: ${albums}">
     <div class="disInline">
         <p class="inline"> Album ID: <span th:text=${album.id}></span></p>
@@ -14,7 +26,9 @@
         <p class="inline"> Album song count: <span th:text=${album.songCount}></span></p>
         <p class="inline"> Album length: <span th:text=${album.length}></span></p>
     </div>
+
     <img th:src="${album.imageUrl}"/>
 </div>
+</a>
 </body>
 </html>
