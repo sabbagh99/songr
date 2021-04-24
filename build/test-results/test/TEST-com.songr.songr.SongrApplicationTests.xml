@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.songr.songr.SongrApplicationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-24T08:32:55" hostname="sabbagh99" time="1.225">
+<testsuite name="com.songr.songr.SongrApplicationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-24T08:49:55" hostname="sabbagh99" time="1.785">
   <properties/>
-  <testcase name="testAddSong()" classname="com.songr.songr.SongrApplicationTests" time="0.444"/>
-  <testcase name="testAlbum()" classname="com.songr.songr.SongrApplicationTests" time="0.042"/>
-  <testcase name="testSong()" classname="com.songr.songr.SongrApplicationTests" time="0.048"/>
-  <testcase name="testAlbumPage()" classname="com.songr.songr.SongrApplicationTests" time="0.673"/>
-  <testcase name="testHelloWorldPage()" classname="com.songr.songr.SongrApplicationTests" time="0.013"/>
-  <system-out><![CDATA[11:32:51.262 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-11:32:51.272 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-11:32:51.302 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.songr.songr.SongrApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-11:32:51.315 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.songr.songr.SongrApplicationTests], using SpringBootContextLoader
-11:32:51.319 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.songr.songr.SongrApplicationTests]: class path resource [com/songr/songr/SongrApplicationTests-context.xml] does not exist
-11:32:51.320 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.songr.songr.SongrApplicationTests]: class path resource [com/songr/songr/SongrApplicationTestsContext.groovy] does not exist
-11:32:51.320 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.songr.songr.SongrApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-11:32:51.321 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.songr.songr.SongrApplicationTests]: SongrApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-11:32:51.361 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.songr.songr.SongrApplicationTests]
-11:32:51.419 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/sabbagh99/Desktop/ASAC/code-401/songr/build/classes/java/main/com/songr/songr/SongrApplication.class]
-11:32:51.420 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.songr.songr.SongrApplication for test class com.songr.songr.SongrApplicationTests
-11:32:51.492 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.songr.songr.SongrApplicationTests]: using defaults.
-11:32:51.492 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-11:32:51.505 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@571d184a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32d0bd40, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3f904396, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6db9ea12, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@525970a7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6554fd11, org.springframework.test.context.transaction.TransactionalTestExecutionListener@58e58ede, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7aae16aa, org.springframework.test.context.event.EventPublishingTestExecutionListener@63eb9d10, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@21955809, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5572a19b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5fe3e6d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@60dff328, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6b81ba2a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2bbfb0b8]
-11:32:51.508 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@595c9603 testClass = SongrApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4a3737f6 testClass = SongrApplicationTests, locations = '{}', classes = '{class com.songr.songr.SongrApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6606692b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7b33253e, [ImportsContextCustomizer@1d75f34c key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@37690c90, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@701b84d3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7ed8bd49, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@61db1881], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
-11:32:51.531 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+  <testcase name="testAddSong()" classname="com.songr.songr.SongrApplicationTests" time="0.905"/>
+  <testcase name="testAlbum()" classname="com.songr.songr.SongrApplicationTests" time="0.044"/>
+  <testcase name="testSong()" classname="com.songr.songr.SongrApplicationTests" time="0.169"/>
+  <testcase name="testAlbumPage()" classname="com.songr.songr.SongrApplicationTests" time="0.606"/>
+  <testcase name="testHelloWorldPage()" classname="com.songr.songr.SongrApplicationTests" time="0.028"/>
+  <system-out><![CDATA[11:49:49.239 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:49:49.253 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:49:49.303 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.songr.songr.SongrApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:49:49.318 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.songr.songr.SongrApplicationTests], using SpringBootContextLoader
+11:49:49.324 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.songr.songr.SongrApplicationTests]: class path resource [com/songr/songr/SongrApplicationTests-context.xml] does not exist
+11:49:49.324 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.songr.songr.SongrApplicationTests]: class path resource [com/songr/songr/SongrApplicationTestsContext.groovy] does not exist
+11:49:49.325 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.songr.songr.SongrApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:49:49.326 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.songr.songr.SongrApplicationTests]: SongrApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:49:49.406 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.songr.songr.SongrApplicationTests]
+11:49:49.508 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/sabbagh99/Desktop/ASAC/code-401/songr/build/classes/java/main/com/songr/songr/SongrApplication.class]
+11:49:49.509 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.songr.songr.SongrApplication for test class com.songr.songr.SongrApplicationTests
+11:49:49.621 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.songr.songr.SongrApplicationTests]: using defaults.
+11:49:49.622 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:49:49.644 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@571d184a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32d0bd40, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3f904396, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6db9ea12, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@525970a7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6554fd11, org.springframework.test.context.transaction.TransactionalTestExecutionListener@58e58ede, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7aae16aa, org.springframework.test.context.event.EventPublishingTestExecutionListener@63eb9d10, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@21955809, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5572a19b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5fe3e6d9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@60dff328, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6b81ba2a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2bbfb0b8]
+11:49:49.649 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@595c9603 testClass = SongrApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4a3737f6 testClass = SongrApplicationTests, locations = '{}', classes = '{class com.songr.songr.SongrApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6606692b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7b33253e, [ImportsContextCustomizer@1d75f34c key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@37690c90, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@701b84d3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7ed8bd49, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@61db1881], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+11:49:49.684 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -31,24 +31,24 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.5)
 
-2021-04-24 11:32:51.838  INFO 18151 --- [    Test worker] com.songr.songr.SongrApplicationTests    : Starting SongrApplicationTests using Java 1.8.0_281 on sabbagh99 with PID 18151 (started by sabbagh99 in /home/sabbagh99/Desktop/ASAC/code-401/songr)
-2021-04-24 11:32:51.841  INFO 18151 --- [    Test worker] com.songr.songr.SongrApplicationTests    : No active profile set, falling back to default profiles: default
-2021-04-24 11:32:52.607  INFO 18151 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-04-24 11:32:52.672  INFO 18151 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
-2021-04-24 11:32:53.169  INFO 18151 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-04-24 11:32:53.252  INFO 18151 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-04-24 11:32:53.488  INFO 18151 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-04-24 11:32:53.535  INFO 18151 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
-2021-04-24 11:32:53.661  INFO 18151 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-04-24 11:32:53.781  INFO 18151 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2021-04-24 11:32:54.316  INFO 18151 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-04-24 11:32:54.323  INFO 18151 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-04-24 11:32:54.940  WARN 18151 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-04-24 11:32:55.178  INFO 18151 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-24 11:32:55.747  INFO 18151 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2021-04-24 11:32:55.747  INFO 18151 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-04-24 11:32:55.748  INFO 18151 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2021-04-24 11:32:55.769  INFO 18151 --- [    Test worker] com.songr.songr.SongrApplicationTests    : Started SongrApplicationTests in 4.232 seconds (JVM running for 5.16)
+2021-04-24 11:49:50.075  INFO 20398 --- [    Test worker] com.songr.songr.SongrApplicationTests    : Starting SongrApplicationTests using Java 1.8.0_281 on sabbagh99 with PID 20398 (started by sabbagh99 in /home/sabbagh99/Desktop/ASAC/code-401/songr)
+2021-04-24 11:49:50.081  INFO 20398 --- [    Test worker] com.songr.songr.SongrApplicationTests    : No active profile set, falling back to default profiles: default
+2021-04-24 11:49:50.878  INFO 20398 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-24 11:49:50.945  INFO 20398 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2021-04-24 11:49:51.572  INFO 20398 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-24 11:49:51.713  INFO 20398 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-24 11:49:52.078  INFO 20398 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-24 11:49:52.156  INFO 20398 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-24 11:49:52.342  INFO 20398 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-24 11:49:52.505  INFO 20398 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-04-24 11:49:53.229  INFO 20398 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-24 11:49:53.239  INFO 20398 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-24 11:49:54.074  WARN 20398 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-24 11:49:54.439  INFO 20398 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 11:49:55.268  INFO 20398 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-04-24 11:49:55.269  INFO 20398 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-04-24 11:49:55.272  INFO 20398 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-04-24 11:49:55.310  INFO 20398 --- [    Test worker] com.songr.songr.SongrApplicationTests    : Started SongrApplicationTests in 5.618 seconds (JVM running for 6.987)
 
 MockHttpServletRequest:
       HTTP Method = GET
@@ -94,13 +94,13 @@ MockHttpServletResponse:
 
 
 <div class="navbar">
-    <a href="http://localhost:8080/">home page</a>
-    <a href="http://localhost:8080/hello">hello world </a>
-    <a href="http://localhost:8080/addAlbum">Add album</a>
-    <a href="http://localhost:8080/albums">All album</a>
-    <a href="http://localhost:8080/capitalize/hello"> capitalize</a>
-    <a href="http://localhost:8080/addSong">Add song</a>
-    <a href="http://localhost:8080/songs">All song</a>
+    <a href="https://songr-ad.herokuapp.com/">Home page</a>
+    <a href="https://songr-ad.herokuapp.com//hello">Hello world </a>
+    <a href="https://songr-ad.herokuapp.com//addAlbum">Add album</a>
+    <a href="https://songr-ad.herokuapp.com//albums">All album</a>
+    <a href="https://songr-ad.herokuapp.com//capitalize/hello"> Capitalize</a>
+    <a href="https://songr-ad.herokuapp.com//addSong">Add song</a>
+    <a href="https://songr-ad.herokuapp.com//songs">All song</a>
 </div>
 
 <div class="testbox">
@@ -178,15 +178,14 @@ MockHttpServletResponse:
 
 
 <div class="navbar">
-    <a  href="http://localhost:8080/">home page</a>
-    <a  href="http://localhost:8080/hello">hello world </a>
-    <a  href="http://localhost:8080/addAlbum">Add album</a>
-    <a  href="http://localhost:8080/albums">All  album</a>
-    <a  href="http://localhost:8080/capitalize/hello"> capitalize</a>
-    <a  href="http://localhost:8080/addSong">Add song</a>
-    <a  href="http://localhost:8080/songs">All song</a>
+    <a href="https://songr-ad.herokuapp.com/">Home page</a>
+    <a href="https://songr-ad.herokuapp.com//hello">Hello world </a>
+    <a href="https://songr-ad.herokuapp.com//addAlbum">Add album</a>
+    <a href="https://songr-ad.herokuapp.com//albums">All album</a>
+    <a href="https://songr-ad.herokuapp.com//capitalize/hello"> Capitalize</a>
+    <a href="https://songr-ad.herokuapp.com//addSong">Add song</a>
+    <a href="https://songr-ad.herokuapp.com//songs">All song</a>
 </div>
-
 <div>
     <div class="disInline">
         <p class="inline"> Album ID: <span>1</span></p>
@@ -198,7 +197,6 @@ MockHttpServletResponse:
 
     <img src="https://wallpapercave.com/wp/wp7474508.png"/>
 </div>
-
 <div>
     <div class="disInline">
         <p class="inline"> Album ID: <span>2</span></p>
@@ -210,7 +208,6 @@ MockHttpServletResponse:
 
     <img src="www.www.www"/>
 </div>
-
 <div>
     <div class="disInline">
         <p class="inline"> Album ID: <span>3</span></p>
@@ -222,7 +219,6 @@ MockHttpServletResponse:
 
     <img src="www.www.www"/>
 </div>
-
 <div>
     <div class="disInline">
         <p class="inline"> Album ID: <span>4</span></p>
@@ -234,7 +230,6 @@ MockHttpServletResponse:
 
     <img src="no image"/>
 </div>
-
 <div>
     <div class="disInline">
         <p class="inline"> Album ID: <span>5</span></p>
@@ -298,13 +293,13 @@ MockHttpServletResponse:
 
 
 <div class="navbar">
-    <a  href="http://localhost:8080/">home page</a>
-    <a  href="http://localhost:8080/hello">hello world </a>
-    <a  href="http://localhost:8080/addAlbum">Add album</a>
-    <a  href="http://localhost:8080/albums">All  album</a>
-    <a  href="http://localhost:8080/capitalize/hello"> capitalize</a>
-    <a  href="http://localhost:8080/addSong">Add song</a>
-    <a  href="http://localhost:8080/songs">All song</a>
+    <a href="https://songr-ad.herokuapp.com/">Home page</a>
+    <a href="https://songr-ad.herokuapp.com//hello">Hello world </a>
+    <a href="https://songr-ad.herokuapp.com//addAlbum">Add album</a>
+    <a href="https://songr-ad.herokuapp.com//albums">All album</a>
+    <a href="https://songr-ad.herokuapp.com//capitalize/hello"> Capitalize</a>
+    <a href="https://songr-ad.herokuapp.com//addSong">Add song</a>
+    <a href="https://songr-ad.herokuapp.com//songs">All song</a>
 </div>
 
 <p class="hello">Hello,  </p> <p class="g"> world ! </p>
