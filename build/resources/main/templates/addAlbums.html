@@ -9,35 +9,44 @@
 <body>
 
 <div class="navbar">
-    <a  href="http://localhost:8080/">home page</a>
-    <a  href="http://localhost:8080/hello">hello world </a>
-    <a  href="http://localhost:8080/addAlbum">Add album</a>
-    <a  href="http://localhost:8080/albums">All  album</a>
-    <a  href="http://localhost:8080/capitalize/hello"> capitalize</a>
-    <a  href="http://localhost:8080/addSong">Add song</a>
-    <a  href="http://localhost:8080/songs">All song</a>
+    <a href="http://localhost:8080/">home page</a>
+    <a href="http://localhost:8080/hello">hello world </a>
+    <a href="http://localhost:8080/addAlbum">Add album</a>
+    <a href="http://localhost:8080/albums">All album</a>
+    <a href="http://localhost:8080/capitalize/hello"> capitalize</a>
+    <a href="http://localhost:8080/addSong">Add song</a>
+    <a href="http://localhost:8080/songs">All song</a>
 </div>
 
-<h3>Add a new Album</h3>
-<form action="/albums" method="post">
-    <label>Title name</label>
-    <input type="text" name="title" />
+<div class="testbox">
+    <form action="/albums" method="post">
 
-    <label>Artist name</label>
-    <input type="text" name="artist" />
+        <h1>Add a new Album</h1>
 
-    <label>Song Count</label>
-    <input type="number" name="songCount" />
+        <h4>Title name<span>*</span></h4>
+        <input type="text" name="title"/>
 
-    <label>Length</label>
-    <input type="number" name="length" />
+        <h4>Artist name<span>*</span></h4>
+        <input type="text" name="artist"/>
 
 
-    <label>Image Url</label>
-    <input type="text" name="imageUrl" />
+        <h4>Song Count<span>*</span></h4>
+        <input type="number" name="songCount"/>
 
 
-    <input type="submit" value="add Album">
-</form>
+        <h4>Length<span>*</span></h4>
+        <input type="number" name="length"/>
+
+
+        <h4>Image</h4>
+        <input type="file" id="imageUrl" name="imageUrl" accept="image/*">
+
+
+
+        <div class="btn-block">
+            <input class="button" type="submit" value="add Album">
+        </div>
+    </form>
+</div>
 </body>
 </html>

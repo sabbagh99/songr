@@ -87,12 +87,10 @@ public class Album {
 
     @Override
     public String toString() {
-        return "Album{" +
-                "title='" + title + '\'' +
-                ", artist='" + artist + '\'' +
+        return
+                "Album name='" + title + '\'' +
+                ", Artist name ='" + artist + '\'' +
                 ", songCount=" + songCount +
-                ", length=" + length +
-                ", imageUrl='" + imageUrl + '\'' +
-                '}';
+                ", length=" + length;
     }
 }
